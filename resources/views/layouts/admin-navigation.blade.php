@@ -20,6 +20,9 @@
                     <x-nav-link :href="route('admin.owners.index')" :active="request()->routeIs('admin.owners.index')">
                         {{ __('オーナー菅理') }}
                     </x-nav-link>
+                    <x-nav-link :href="route('admin.expired-owners.index')" :active="request()->routeIs('admin.expired-owners.index')">
+                        {{ __('期限切れオーナー菅理') }}
+                    </x-nav-link>
                 </div>
             </div>
 
