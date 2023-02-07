@@ -34,7 +34,7 @@ Route::prefix('shops')
     Route::get('edit/{shop}', [ShopController::class, 'edit'])
         ->name('shops.edit');
     Route::post('update/{shop}', [ShopController::class, 'update'])
-        ->name('shopts.update');
+        ->name('shops.update');
 });
 
 Route::get('/dashboard', function () {

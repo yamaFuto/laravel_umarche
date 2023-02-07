@@ -13,11 +13,11 @@
                         <div class="container px-5 mx-auto">
                           <div class="flex flex-col text-center w-full mb-12">
                             <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">オーナー登録</h1>
-                          </div>
+                        </div>
+                        <div class="lg:w-1/2 md:w-2/3 mx-auto">
                           <x-auth-validation-errors class="mb-4" :errors="$errors" />
                           <form method="post" action="{{ route('admin.owners.store')}}">
                             @csrf
-                          <div class="lg:w-1/2 md:w-2/3 mx-auto">
                             <div class="-m-2">
                               <div class="p-2 w-1/2 mx-auto">
                                 <div class="relative">
@@ -48,8 +48,8 @@
                                 <button type="submit" class="text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">登録する</button>
                               </div>
                               </div>
+                            </form>
                           </div>
-                        </form>
                         </div>
                       </section>
                 </div>
