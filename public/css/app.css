@@ -838,6 +838,9 @@ select {
 .w-1\/2 {
   width: 50%;
 }
+.w-32 {
+  width: 8rem;
+}
 .w-16 {
   width: 4rem;
 }
